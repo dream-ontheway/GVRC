@@ -1,0 +1,2881 @@
+body{
+	font-family:"微软雅黑",Verdana,Geneva,Arial,Sans-serif,"微软雅黑";
+	margin: 0;
+	padding:0;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+#footerhtml{
+	width: 100%;
+	min-height: 1485px;
+	display: block;
+}
+#en-footerhtml{
+	width: 100%;
+	min-height: 1539px;
+	display: block;
+}
+/*  英文版样式补充*/
+.en-bottonbanner{
+	background-image: url(../images/en-bottombanner.jpg) !important;
+}
+.EN-header{
+	position: relative;
+	background-image:url(../images/en-index-banner.jpg); 
+	height: 779px;
+	width: 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 1922px 779px;
+}
+#section-right p.EN-section{
+	letter-spacing: 0;
+	line-height: 23px;
+	font-size: 14px;
+}
+#section-left-two p.EN-section {
+    color: #000;
+    letter-spacing: 0px;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: justify;
+}
+#footer-top-logoo span.EN-line{
+	height: 272px;
+}
+section.ENsection{
+	height: 240px;
+}
+/* 顶部改动 */
+#header{
+	width: 100%;
+	height: 70px;
+}
+#newlogo{
+	float: left;
+}
+#newlogo img{
+	width: 120px;
+	margin-top: 14px;
+	margin-left: 20px;
+}
+#nav{
+	float: right;
+}
+#nav ul li{
+	float: left;
+	margin: 21px;
+	padding: 5px 20px;
+}
+#nav ul li a{
+	font-size: 14px;
+	
+	color: rgba(0,0,0,0.7);
+	font-weight: bold;
+	
+}
+#nav ul li#English{
+	color: #2b6e91;
+}
+#banner-bottom{
+	width: 100%;
+	height: 150px;
+	background: #0a5880;
+}
+#banner-bottom-inner{
+	max-width: 1020px;
+	height: 100%;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+#banner-bottom-inner ul li{
+	width: 20%;
+	height: 150px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+#banner-bottom-inner ul li img{
+	margin-top: 40px;
+}
+#banner-bottom-inner ul li p{
+	margin-top: 10px;
+	color: #fff;
+	font-size: 18px;
+}
+#banner-bottom-inner ul li span{
+	display: block;
+	width: 2px;
+	height: 100px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	right:-1px;
+	top: 25px;
+}
+section{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 80px;
+}
+#content{
+	background: #f3f3f3;
+}
+#section-left{
+	height: 100%;
+	width: 33.3%;
+	float: left;
+}
+#section-left img{
+	height: 100%;
+}
+#section-right{
+	width: 66.6%;
+	height: 100%;
+	float: right;
+	text-align: justify;
+}
+#section-right h4{
+	color: #2b6e91;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	margin-right: 15px;
+}
+#section-right p{
+	
+	color: #000;
+	letter-spacing: 3px;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+#section-left-two{
+	width: 66.6%;
+	height: 100%;
+	float: left;
+}
+#section-left-two h4{
+	color: #2b6e91;
+	line-height: 30px;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+#section-left-two p{
+	text-align: justify;
+	color: #000;
+	letter-spacing: 3px;
+	line-height: 25px;
+	font-size: 16px;
+}
+#section-right-two{
+	height: 100%;
+	width: 33.3%;
+	float: left;
+	text-align: right;
+}
+#section-right-two img{
+	height: 100%;
+}
+/* 参会嘉宾 */
+#distinguished-gues{
+	width: 100%;
+	height: 840px;
+	background: #aeaeae;
+	margin-top: -80px;
+	position: relative;
+}
+
+/* 嘉宾资料 */
+.Guest-introduction{
+	width: 600px !important;
+	height: 800px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,1);
+	display: none;
+	color: #1a1a1a;
+	padding: 30px;
+	transition:all 0.5s ease;
+}
+
+.Guest-introduction span{
+	position: absolute;
+	display: block;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+.Guest-introduction .distinguished-gues-bottom-box h3,.Guest-introduction .distinguished-gues-bottom-box p{
+	color: #1a1a1a !important;
+	float: none;
+}
+.Guest-introduction .distinguished-gues-bottom-box{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+} 
+.Guest-introduction .distinguished-gues-bottom-box>div{
+	float: left;
+}
+.Guest-introduction textarea{
+	width: 100%;
+	height: 70%;
+	display:block;
+	border: none;
+	font-size:16px;
+	line-height: 25px;
+	text-align: justify;
+	font-family: "微软雅黑";
+	background: #fff;
+}
+
+
+
+#distinguished-gues-top{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+#distinguished-gues-top img{
+	margin-top: 20px;
+}
+#distinguished-gues-top p{
+	font-weight: bold;
+	color: #fff;
+	font-size: 25px;
+	
+}
+#distinguished-gues-bottom{
+	width: 100%;
+	height: 640px;
+	max-width: 1020px;
+    padding: 0 32px;
+    margin: 0 auto;
+    position: relative;
+}
+.distinguished-gues-bottom-box{
+	width: 33.3%;
+	height:50%;
+	padding: 40px 0 0 0;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.distinguished-gues-bottom-box div{
+	margin: 0 auto;	
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.distinguished-gues-bottom-box .name{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 40px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.distinguished-gues-bottom-box #position{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 35px;
+	
+}
+.distinguished-gues-bottom-box div#distinguished-gues-one{
+	background-image: url(../images/img/12.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-two{
+	background-image: url(../images/img/8.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-three{
+	background-image: url(../images/img/7.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-4{
+	background-image: url(../images/img/16.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-5{
+	background-image: url(../images/img/9.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-6{
+	background-image: url(../images/img/13.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-7{
+	background-image: url(../images/img/2.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-8{
+	background-image: url(../images/img/14.png);
+}
+
+.distinguished-gues-bottom-box div#distinguished-gues-9{
+	background-image: url(../images/img/18.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-10{
+	background-image: url(../images/img/17.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-11{
+	background-image: url(../images/img/3.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-12{
+	background-image: url(../images/img/11.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-13{
+	background-image: url(../images/img/10.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-14{
+	background-image: url(../images/img/6.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-15{
+	background-image: url(../images/img/15.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-16{
+	background-image: url(../images/img/1.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-17{
+	background-image: url(../images/img/117.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-18{
+	background-image: url(../images/img/118.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-19{
+	background-image: url(../images/img/119.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-20{
+	background-image: url(../images/img/120.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-21{
+	background-image: url(../images/img/121.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-22{
+	background-image: url(../images/img/122.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-23{
+	background-image: url(../images/img/123.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-24{
+	background-image: url(../images/img/124.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-25{
+	background-image: url(../images/img/125.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-26{
+	background-image: url(../images/img/126.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-28{
+	background-image: url(../images/img/28.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-29{
+	background-image: url(../images/img/30.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-30{
+	background-image: url(../images/img/29.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-31{
+	background-image: url(../images/img/32.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-32{
+	background-image: url(../images/img/31.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-33{
+	background-image: url(../images/img/34.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-34{
+	background-image: url(../images/img/33.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-36{
+	background-image: url(../images/img/36.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-37{
+	background-image: url(../images/img/37.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-38{
+	background-image: url(../images/img/38.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-39{
+	background-image: url(../images/img/39.png);
+}
+.distinguished-gues-bottom-box div#distinguished-gues-40{
+	background-image: url(../images/img/40.png);
+}
+#btns{
+	width: 156px;
+	height: 50px;
+	position: absolute;
+	bottom: -80px;
+	left: 50%;
+	margin-left: -78px;
+}
+#btns2{
+	width: 240px;
+	height: 50px;
+	position: absolute;
+	bottom: -40px;
+	left: 50%;
+	margin-left: -120px;
+}
+#btns ul li,#btns2 ul li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin: 0 5px;
+	background: #757474;
+	float: left;
+	margin-top:20px;
+}
+#btns ul li:first-of-type,#btns2 ul li:first-of-type{
+	background: #2a2a2a;
+}
+#arrow-left,#arrow-left2{
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	left: -2%;
+	top: 45%;
+	cursor: pointer;
+	background-image: url(../images/arrow-left.png);
+}
+#arrow-right,#arrow-right2{
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	right: -2%;
+	top: 45%;
+	cursor: pointer;
+	background-image: url(../images/arrow-right.png);
+}
+/* 合作伙伴 */
+#Partne{
+	width: 100%;
+	height: 450px;
+	background: #888787;
+	margin-top: -80px;
+	margin-bottom: 0;
+}
+#Partne-logo{
+	width: 100%;
+    height: 300px;
+    max-width: 1020px;
+    padding: 0 32px;
+    margin: 0 auto;
+    position: relative;
+}
+.Partne-logo-box{
+	width: 33.3%;
+	height: 50%;
+	padding: 0;
+	text-align: center;
+	float: left;
+}
+#Partne-logo-01{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+#Partne-logo-02{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/03.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-03{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/04.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-04{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/02.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-05{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/05.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-06{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/06.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-07{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/07.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-08{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/08.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-09{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/09.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-10{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/10.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+
+
+
+
+#Partne-logo-11{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/11.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-12{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/13.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-13{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/14.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-14{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/12.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-15{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/15.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-16{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/16.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-17{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/17.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-18{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/18.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+}
+#Partne-logo-19{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/19.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-20{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/20.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+
+
+
+#Partne-logo-21{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/21.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+#Partne-logo-22{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/22.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-23{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/23.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+}
+#Partne-logo-24{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/24.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+}
+#Partne-logo-25{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/25.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-26{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/26.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-27{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/27.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-28{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/27.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-29{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/29.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-30{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/30.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+
+
+
+
+
+#Partne-logo-31{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/31.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-32{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/32.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 55%;
+}
+#Partne-logo-33{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/33.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-34{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/34.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-35{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/35.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-36{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/36.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+
+
+
+
+#Partne-logo-37{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/37.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-38{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/38.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-39{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/39.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-40{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/40.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-41{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/41.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-42{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/42.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+
+
+#Partne-logo-43{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/43.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-44{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/44.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-45{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/45.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-46{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/46.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-47{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/47.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:40%;
+}
+#Partne-logo-48{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/48.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-49{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/49.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-50{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/50.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:50%;
+}
+#Partne-logo-51{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/51.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+#Partne-logo-52{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/52.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-53{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/53.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-54{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/54.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-55{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/55.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-56{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/56.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+#Partne-logo-57{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/57.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+#Partne-logo-58{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/58.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+#Partne-logo-59{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/59.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-60{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/60.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-61{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/61.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-62{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/62.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:70%;
+}
+#Partne-logo-63{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/63.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-64{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/64.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35%;
+}
+#Partne-logo-65{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/65.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+#Partne-logo-66{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/66.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-67{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/67.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-68{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/68.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+#Partne-logo-69{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/69.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+}
+#Partne-logo-70{
+	width: 	100%;
+	height: 100%; 
+	background-image: url(../images/Cooperative/70.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+
+
+
+
+
+
+
+#Partne-logo #arrow-left{
+	position: absolute;
+    left: 0;
+    top: 41%;
+}
+#Partne-logo #arrow-right{
+	position: absolute;
+    right: 0;
+    top: 41%;
+}
+#bottom-banner{
+	width: 100%;
+	height: 212px;
+	background-image: url(../images/banner-bottom.jpg);
+	background-repeat: no-repeat;
+	background-size: 1922px 318px;
+	background-position: center;
+}
+.Partne-logos-box:nth-of-type(1){
+	display: block;
+}
+
+.Partne-logos-box{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+/* footer */
+#footer{
+	width: 100%;
+	height: auto;
+}
+#footer-top{
+	width: 100%;
+	background: #333;
+	padding: 50px;
+}
+#footer-bottom{
+	width: 100%;
+	padding: 40px 50px;
+	background: #262626;
+}
+#footer-top-logoo{
+	width: 33.3%;
+	float: left;
+}
+#footer-top-two{
+	width: 33.30%;
+	height: 100%;
+	background: #333;
+	float: left;
+	padding-left: 50px;
+}
+#footer-top-three{
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	padding-left: 50px;
+}
+#footer-top-logoo{
+	position: relative;
+	text-align: center;
+}
+#footer-top-logoo img{
+	width: 200px;
+	margin-top:80px;	
+}
+#footer-top-logoo ul li{
+	text-align: center;
+	display: inline-block;
+
+}
+#footer-top-logoo ul li img{
+	width: 30px;
+	margin: 15px;
+}
+#footer-top-logoo span{
+	display: block;
+	width: 2px;
+	height: 270px;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	right: 0px;
+	top:25px;
+}
+#footer-top-two h5,#footer-top-three h5{
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#footer-top-two h5:nth-of-type(2),#footer-top-three h5:nth-of-type(2){
+	margin-top: 30px;
+}
+#footer-top-two p,#footer-top-three p{
+	
+	font-size: 14px;
+	color: #fff;
+	line-height: 27px;
+}
+#footer-bottom-one{
+	width: 33.3%;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+#footer-bottom-one span{
+	line-height:80px;
+}
+#footer-bottom-one #line-one,#footer-bottom-one #line-two{
+	display: inline-block;
+	color: #fff;
+}
+#footer-bottom-one span a{
+	color: #fff;
+	
+	font-size: 14px;
+	margin:  0 7px;
+}
+#footer-bottom-two{
+	width: 33.3%;
+	padding-left: 50px;
+	height: 100%;
+	text-align: left;
+	position: relative;
+	float: left;
+}
+#footer-bottom-two p,#footer-bottom-three p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 27px;
+}
+#footer-bottom-three{
+	width: 33.3%;
+    height: 100%;
+    float: left;
+    padding-left: 50px;
+}
+#return-top{
+	width: 45px;
+	height: 45px;
+	background-image: url(../images/new-return-top.png);
+	position: fixed;
+	right: 30px;
+	bottom: 205px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#weixin{
+	width: 45px;
+	height: 45px;
+	background-image: url(../images/new-weixin.png);
+	position: fixed;
+	right: 30px;
+	bottom: 160px;
+	background-repeat: no-repeat;
+}
+#weixin .erweima{
+	position: fixed;
+	width: 150px;
+	height: 200px;
+	right: 80px;
+	bottom: 141px;
+	background-image: url(../images/erweima.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: none;
+}
+#guide-page.guide-page{
+	background-image :url(../images/en-banner.jpg);
+}
+
+/* 主页完 */
+
+/* 会务指南 */
+#guide-page{
+	width: 100%;
+	height: 298px;
+	background-image: url(../images/ch-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 1922px 300px;
+    text-align: center;
+}
+/* banner补充布局 */
+#guide-page h3{
+	text-align: center;
+	color:#075178;
+	font-size: 35px;
+	padding: 48px 0 0 0;
+	font-family: '微软雅黑';
+}
+#guide-page h1{
+	color: #1397df;
+	font-size: 48px;
+	font-family: '微软雅黑';
+	font-weight: normal;
+}
+#guide-page p{
+	color: #0b5077;
+	font-size: 25px;
+}
+#guide-page h2{
+	color: #1397df;
+	font-size: 35px;
+	font-weight: normal;
+	padding-top:20px; 
+}
+.head-left{
+	width: 45%;
+	height: 100%;
+	padding-left: 16%;
+	float: left;
+}
+.head-left h5{
+	color: #075177;
+	font-size: 35px;
+	font-family: '微软雅黑';
+	font-weight: normal;
+	padding-top: 170px;
+}
+.head-left h1{
+	color: #1198de;
+	font-size: 48px;
+}
+.head-left p{
+	color:#075177;
+	font-size: 25px;
+	padding-top: 10px;
+	letter-spacing: .2px; 
+}
+.head-left h2{
+	text-align: right;
+	color: #1198de;
+	font-size: 35px;
+	padding-right: 8px;
+	padding-top: 19px;
+	font-weight: normal;
+}
+.head-right{
+	width: 55%;
+	height: 100%;
+	float: left;
+	padding: 15px 20px;
+}
+.head-right ul {
+	width: 100%;
+	height: 100%;
+}
+.head-right ul li{
+	width: 15.5%;
+	height: 33.3%;
+	float: left;
+	overflow: hidden;
+}
+.head-right ul li img{
+	width: 100%;
+}
+.head-right ul li:nth-of-type(5){
+	background:rgba(111,172,201,0.5);
+}
+.head-right ul li:nth-of-type(9){
+	background:rgba(18,218,215,0.5);
+	text-align: center;
+}
+.head-right ul li:nth-of-type(9) p,.head-right ul li:nth-of-type(16) p{
+	font-size: 30px;
+	color:#fff;
+	line-height: 155px;
+	font-family: '微软雅黑';
+}
+.head-right ul li:nth-of-type(12){
+	background:rgba(123,214,206,0.8);
+}
+.head-right ul li:nth-of-type(13){
+	background:rgba(123,214,206,0.5);
+}
+.head-right ul li:nth-of-type(16){
+	background:#1296da;
+	text-align: center;
+}
+/*  banner补充布局 完 */
+#guide-page-zhinan{
+	background: #0a5880;
+	border-radius: 20px;
+}
+#nav ul li#guide-page-zhinan a{
+	color: #fff;
+	display: block;
+	line-height: 20px;
+}
+#information{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	background: #0a5880;
+}
+#information img{
+	margin-top: 20px;
+}
+#information p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+}
+#guide-page-time{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 610px;
+	height: 50px;
+	background-image: url(../images/time.jpg);
+}
+#guide-page-time2{
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 610px;
+	background-image: url(../images/dizhi.jpg);
+}
+#guide-page-time p{
+	display: block;
+	position: relative;
+}
+#guide-page-time p span{
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	position: absolute;
+	display: block;
+}
+#guide-page-time p span:first-of-type{
+	left: 40px;
+}
+#guide-page-time p span:last-of-type{
+	right: 20px;
+}
+#guide-page-time2 p{
+	display: block;
+	position: relative;
+	/* color: #fff;
+	font-size: 13px;
+	line-height: 50px;
+	text-align: right;
+	margin-right:20px; */
+}
+
+#guide-page-time2 p span{
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	position: absolute;
+	display: block;
+}
+#guide-page-time2 p span:first-of-type{
+	left: 40px;
+}
+#guide-page-time2 p span:last-of-type{
+	right: 15px;
+}
+
+
+
+
+
+
+
+#guide-page-position{
+	margin: 20px auto;
+	max-width: 610px;
+	height: 50px;
+	background-image: url(../images/position.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#guide-page-baidu-map{
+	max-width: 610px;
+	margin: -20px auto 0 auto;
+	height: 352px;
+	overflow: hidden;
+}
+#guide-page-traffic{
+	margin: 20px auto 0;
+	max-width: 610px;
+	height: 50px;
+	position: relative;
+	background-image: url(../images/jiaotong.jpg);
+}
+#guide-page-traffic p{
+	position: absolute;
+	left: 40px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+#guide-page-subway{
+	padding: 20px ;
+	max-width: 610px;
+	height: auto;
+	background: #eaeaea;
+	margin: 0 auto
+}
+#guide-page-subway h3{
+	color: #000;
+	font-family: '微软雅黑';
+	margin-bottom: 10px;
+}
+#guide-page-subway ol li{
+	list-style: none;
+	color: #000;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	line-height:30px;
+}
+#guide-page-subway ol li:last-of-type{
+	margin-bottom: 20px;
+}
+#guide-page-activity{
+	background: #f3f3f3;
+	margin: auto;
+	padding: 80px 0;
+}
+#guide-page-stay{
+	margin: 20px auto 0;
+	max-width: 610px;
+	height: 50px;
+	position: relative;
+	background-image: url(../images/stay.jpg);
+}
+#guide-page-stay p{
+	position: absolute;
+	left: 40px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+
+}
+/* 会议指南完 */
+/* 大会议程 */
+#schedule-page-time{
+	margin: 0 auto;
+    max-width: 610px;
+    height: 50px;
+	background: #1198de;
+	padding: 0 20px;
+}
+.schedule-page-time{
+	margin-top: 20px !important;
+}
+
+
+#schedule-page-time p {
+	display: inline-block;
+	float: left;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 50px;
+    text-align: left;
+   
+}
+#schedule-page-time p:last-of-type{
+	float: right;
+}
+.schedule-page-position{
+	margin: 0 auto;
+    max-width: 610px;
+    height: 50px;
+	background: #bde7fa;
+	padding: 0 20px;
+	position: relative;
+	cursor: pointer;
+}
+.schedule-page-position p:nth-of-type(1){
+	display: inline-block;
+	float: left;
+	color: #000;
+	font-size: 14px;
+	line-height: 50px;
+}
+.schedule-page-position p:nth-of-type(2){
+	display: inline-block;
+	float: right;
+	color: #000;
+	font-size: 14px;
+	line-height: 50px;
+}
+.schedule-page-position img{
+	width: 26px;
+	position: absolute;
+	right: 55px;
+	top: 12px;
+}
+.ditu-logo{
+	width: 100px;
+	height: 100%;
+	text-align: right;
+	background-image: url(../images/yicheng-map.png);
+	float: right;
+	background-position: 45px 15px;
+	background-repeat: no-repeat;
+}
+.schedule-page-position-map{
+	width: 100%;
+	height: 371px;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: -50px;
+	left: 0;
+	overflow: hidden;
+	z-index: 20;
+	background-size: 100% ;
+	display: none; 
+	background-image: url(../images/bigmap.jpg);
+}
+.schedule-page-position-map p{
+	display: inline-block;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 50px;
+    text-align: left;
+   
+}
+.ditu{
+	width: 100px;
+	height: 100%;
+	text-align: right;
+	background-image: url(../images/close.jpg);
+	float: right;
+	background-position: 78px 15px;
+	background-repeat: no-repeat;
+}
+#schedule-page-content{
+	margin: 0 auto;
+    max-width: 610px;
+    height: 50px;
+	background: #595959;
+	padding: 0 10px;
+}
+#schedule-page-content p{
+	display: inline-block;
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	margin-right: 130px;
+}
+#schedule-page-table{
+	 max-width: 610px;
+	 height: auto;
+	 margin: 0 auto;
+}
+#schedule-page-table tr{
+	line-height:40px;
+}
+#schedule-page-table .timetdOne{
+	width: 35%;
+	border: 3px solid #fff;
+	border-left: 0;
+	padding: 0 15px;
+	display: block;
+	float: left;
+}
+#schedule-page-table .timetdTwo{
+	width: 65%;border: 3px solid #fff;
+	border-right:0; 
+	padding: 0 15px;
+	display: block;
+	float: right;
+	position: relative;
+	cursor: pointer;
+}
+#schedule-page-table tr[color]{
+	background: #d7d7d7;
+}
+#schedule-page-table tr[color2]{
+	background: #b6b7b7;
+	position: relative;
+}
+.triangle{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	width: 14px;
+	height: 12px;
+	background-image: url(../images/daosanjiao.png);
+}
+#bottom-banner.bottom-banner{
+	margin-top: 0px;
+}
+/* 演讲嘉宾 */
+.schedule-guests{
+	max-width: 610px;
+	margin: 0 auto;
+	height: 200px;
+	background: #a5a5a5;
+	display: none;
+	position: relative;
+}
+.schedule-guests td{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.schedule-guests h3{
+	color: #fff;
+	
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.schedule-guests .distinguished-gues-bottom-box {
+	padding: 0;
+	width: 150px;
+	cursor: pointer;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-one{
+	position: absolute;
+	left:30px;
+	top: 65px; 
+    background-position: -28px 0px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-one+h3{
+	position: absolute;
+	left: 16px;
+	top: 110px;
+	cursor: pointer;
+	font-size: 22px;
+}
+.schedule-guests .distinguished-gues-bottom-box div{
+	width: 70px;
+	height: 70px;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-two{
+	position: absolute;
+	left: 120px;
+	top: 25px;
+    background-position: -14px 0px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-two+h3{
+	position: absolute;
+	left: 106px;
+	top: 70px;
+	font-size: 22px;
+	cursor: pointer;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-three{
+	position: absolute;
+	left: 210px;
+	top: 25px;
+    background-position: -56px 0px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-three+h3{
+	position: absolute;
+	left: 196px;
+	top: 70px;
+	cursor: pointer;
+	font-size: 22px;
+
+}
+
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-one~.jiabinkuang{
+	width: 241px;
+	height: 76px;
+	z-index: 200;
+	background-image: url(../images/jiabingkuang.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 22px;
+	top: 135px;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-two~.jiabinkuang{
+	width: 241px;
+	height: 76px;
+	background-image: url(../images/jiabin-kuang2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 34px;
+	top: 95px;
+	display: none;
+	text-align: center;
+}
+.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-three~.jiabinkuang{
+	width: 241px;
+	height: 76px;
+	background-image: url(../images/jiabin-kuang2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 124px;
+	top: 95px;
+	display: none;
+	text-align: center;
+}
+.schedule-guests .distinguished-gues-bottom-box div.jiabinkuang p{
+	color: #000;
+	font-size: 16px;
+	line-height: 30px;
+	z-index: 20;
+}
+.schedule-guests .distinguished-gues-bottom-box div.jiabinkuang p:first-of-type{
+	margin-top: 15px;
+}
+.distinguished-gues-bottom-box div.jiabinkuang{
+	border-radius: 0;
+}
+#distinguished-gues-bottom{
+	position: relative;
+}
+.distinguished-gues-bottom-bigbox{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	display: none;
+}
+.distinguished-gues-bottom-bigbox:first-of-type{
+	display: block;
+}
+/* 大会日程完 */
+/* 参会报名 */
+.sign-up{
+	position: relative;
+}
+.left-boxa{
+	position: absolute;
+	left: 30px;
+	top: -38px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/left-imagea.png);
+	background-repeat:no-repeat;
+}
+.left-boxb{
+	position: absolute;
+	left: 30px;
+	top: -35px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/left-imageb.png);
+	background-repeat:no-repeat;
+}
+.left-boxc{
+	position: absolute;
+	left: 30px;
+	top: -35px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/left-imagec.png);
+	background-repeat:no-repeat;
+}
+.left-boxd{
+	position: absolute;
+	left: 30px;
+	top: -35px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/left-imaged.png);
+	background-repeat:no-repeat;
+}
+.left-boxe{
+	position: absolute;
+	left: 30px;
+	top: -35px;
+	width: 50px;
+	height: 50px;
+	background: url(../images/left-imagee.png);
+	background-repeat:no-repeat;
+}
+
+/* 参观报名页 */
+.sign-up-right .canguanbaoming{
+	position: absolute !important;
+	top: 0 !important;
+	left: 207% !important;
+	
+}
+.anniu-position{
+	position: relative;
+}
+.bottom-banner{
+	margin-top: 0;
+}
+.header{
+	height: 779px;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(../images/ch-index-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: 1922px 779px;
+	
+}
+@media(max-width: 1366px){
+	.header,.EN-header{
+		height: 519px;
+		background-size: 1366px;
+	}
+	#nav ul li{
+		margin: 21px 5px;
+	}
+}
+@media(max-width: 1280px){
+	.header,.EN-header{
+		height:500px;
+		background-size: 1255px;
+	}
+	#nav ul li{
+		margin: 21px 0px;
+	}
+}
+@media(max-width: 1024px){
+	.header,.EN-header{
+		height:400px;
+		background-size: 1000px;
+	}
+	#nav ul li{
+		margin: 21px 0px;
+		padding: 5px 13px;
+	}
+}
+.activity{
+    width: auto;
+    margin: auto;
+    max-width: 920px;
+    padding: 80px 32px;
+}
+.content{
+	margin: auto;
+	width: 100%;
+    display: block;
+}
+.act-logo{
+	padding: 0 17px;
+	width: 100%;
+	height: 141px;
+	background-image: url(../images/newlogo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 320px;
+	margin-left: -17px;
+}
+.act-text{
+	padding-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+}
+.direction-p{
+	margin-bottom: 20px;
+}
+.direction p{
+	font-size: 20px;
+    line-height: 1.6em;
+    color: rgba(26,26,26,.7);
+}
+.act-text p{
+	font-size: 52px;
+	color: #191919;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.amd p{
+	font-size: 33px;
+}
+#time{
+	font-size: 33px;
+	color: #aba9a9;
+}
+.mybtn p{
+	text-decoration: none;
+	display: block;
+	background:#ff9000;
+	padding: 21px 34px;
+	max-width: 400px;
+	margin: 0 auto;
+	border-radius:10px;
+	color: #fff;
+	font-size: 24px;
+	cursor: pointer;
+}
+/* 参会注册 */
+
+.register-p{
+	font-size: 20px;
+    line-height: 1.6em;
+    color: rgba(26,26,26,.7);
+    margin-bottom: 20px;
+}
+.register{
+	position: relative;
+}
+.register-list{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 40px;
+}
+.register-list div{
+	position: relative;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 24px;
+	color: #fff !important;
+}
+.register-list div:hover{
+	color:#079557 !important;
+}
+#Participants-list{
+	display: none;
+	text-align: center;
+	width: 72px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0 24px;
+	position: absolute;
+	left: 72px;
+	top: 10px;
+	color:#fff !important;
+}
+#Participants-list li:hover{
+	color:#079557 !important;
+}
+/* 参会嘉宾 */
+.jiabin {
+	width: 100%;
+}
+.jiabin ul li {
+	padding: 0 10px;
+	width: 16.66%;
+	float: left;
+	text-align: center;
+}
+.jiabin ul{
+	margin-top: 20px;
+}
+.jiabin ul li img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+.clear{
+	clear: both;
+}
+.jiabin ul li p{
+	padding-top: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(26,26,26,.7);
+	letter-spacing: 3px;
+}
+.jiabin ul li span{
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(26,26,26,.7);
+	letter-spacing: 3px;
+}
+
+/* 主办方信息 */
+.information{
+	width: 100%;
+}
+.information p{
+	font-size: 20px;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    color: rgba(26,26,26,.7);
+    padding: 10px 0 20px 0;
+}
+/* 合作伙伴 */
+.partner-box>h2,.partner h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 83px 0 30px 0 ;
+}
+.partner-box img{
+	width: 100%;
+	cursor: pointer;
+}
+.min-parts{
+	text-align: center;
+	font-size: 24px;
+	margin: 100px 0 30px 0 ;
+}
+.min-parts-box{
+	margin: 0 auto;
+}
+
+/*底部导航*/
+/* 会议日程 */
+
+
+.agendaTable {
+    margin-top: 10px;
+    width: 100%;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+/* 注册报名页 */
+.sign-up{
+	margin-bottom: 30px;
+	position: relative;
+}
+.sign-up-h3{
+	padding: 0 100px;
+	line-height: 50px;
+	font-size: 20px;
+    color: #31a6e2;
+    font-weight: bold;
+   
+}
+.sign-up-left{
+	width: 80%;
+	float: left;
+}
+.sign-up-text,.sign-up-titles{
+	padding-left: 100px;
+	font-size: 18px;
+    line-height: 1.6em;
+    color: rgba(0,0,0);
+   
+}
+.sign-up-titles{
+	padding: 0 100px;
+	font-size: 20px;
+	line-height: 50px;
+	color: #31a6e2;
+	font-weight: bold;
+}
+.sign-up-right{
+	float:left;
+	position: relative;
+	width: 20%;
+	text-align: center;
+	height: auto;
+}
+.black-line{
+	width: 100%;
+	height: 1px;
+	border:1px solid rgba(0,0,0,0.2);
+	display: block;
+	margin: 10px 0 30px 0;
+}
+.sign-up-btns,#sign-up-btns{
+	cursor: pointer;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+	background: #1198de;
+	width: 150px;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 16px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right:0;
+}
+
+.icp{
+	width: 100%;
+	height: 100px;
+	background:#333;
+	text-align: center;
+}
+.icp span{
+	width: 410px;
+	line-height: 100px;
+	color: #fff;
+	font-size: 14px;
+}
+
+/* 关于我们 */
+.about-title{
+	width: 100%;
+	height: 50px;
+	background: #1198de;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.about-title-about{
+	width: 100%;
+	height: 50px;
+	background: #1198de;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.about-title-min{
+	width: 100%;
+	height: 50px;
+	background: #1198de;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 7px 0;
+	display: none;
+}
+.about-title-min a{
+	display: block;
+	color: #fff;
+	font-size: 12px;
+}
+.about-title a{
+	line-height: 50px;
+	font-size: 16px;
+	color: #fff;
+}
+.about-title-about a{
+	line-height: 50px;
+	font-size: 16px;
+	color: #fff;
+}
+.about-logo{
+	width: 100%;
+}
+.about-logo img{
+	width: 100%;
+}
+.about-text p,.lianxifangshi p{
+	color: #000;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 30px;
+	text-align: justify;
+}
+.lianxifangshi p{
+	margin-top: 10px;
+}
+.lianxifangshi p span:nth-of-type(1),.lianxifangshi p span:nth-of-type(2){
+	display: inline-block;
+	width: 25%;
+}
+.lianxifangshi p span:nth-of-type(3){
+	display: inline-block;
+	width: 30%;
+}
+.lianxifangshi p span:nth-of-type(4){
+	display: inline-block;
+	float: right;
+}
+/* 移动nav */
+.list-logo{
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	display: none;
+}
+#nav .min-list li {
+	float: none;
+}
+.min-lianxifangshi{
+	display: none;
+}
+/* 移动 */
+/* 修改移动版 */
+.min-list{
+	display: none;
+}
+/* 移动嘉宾 */
+#distinguished-gues-bottom-min{
+	width: 100%;
+	height: 350px;
+	max-width: 1020px;
+    padding: 0 32px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+#distinguished-gues-bottom-min .distinguished-gues-bottom-minboxs{
+	display: none;
+	width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#distinguished-gues-bottom-min .distinguished-gues-bottom-minboxs:first-of-type{
+	display: block;
+}
+#distinguished-gues-bottom-min #btns-min{
+	width: 234px;
+    height: 50px;
+    position: absolute;
+    bottom: -140px;
+    left: 50%;
+    margin-left: -117px;
+}
+#distinguished-gues-bottom-min #btns-min ul li{
+	width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background: #757474;
+    float: left;
+    margin-top: 20px;
+}
+#distinguished-gues-bottom-min #btns-min ul li:first-of-type, #btns2 ul li:first-of-type{
+	background: #2a2a2a;
+}
+@media(max-width: 900px){
+	/* 嘉宾详细资料 */
+	.Guest-introduction{
+		width: 300px !important;
+		height: 560px;
+		padding: 15px;
+	}
+	.Guest-introduction textarea{
+		font-size:12px;
+		line-height: 20px;
+		height: 60%;
+		color: rgba(26,26,26,0.9);
+	}
+
+	/* 嘉宾详细资料 */
+
+	#distinguished-gues-bottom-min{
+		display: block;
+	}
+	#distinguished-gues-bottom{
+		display: none;
+	}
+	.lianxifangshi{
+		display: none;
+	}
+	.min-lianxifangshi{
+		display: block;
+		overflow: hidden;
+	}
+	table{
+		width: 100%;
+		height: 120px;
+		margin-top: 20px;
+	}
+	.table-en tr td{
+		width:auto !important;
+	}
+	.table-en tr td:nth-of-type(1){
+		width: 65px !important;
+	}
+	.table-en tr td:nth-of-type(2){
+		width: 10px !important;
+	}
+	.table-ch tr td:nth-of-type(2){
+		width: 10px;
+	}
+
+	
+	.about-title{
+		display: none !important;
+	}
+	.about-title-min{
+		display: block;
+	}
+	.about-title a{
+		font-size: 12px;
+	}
+	#banner-bottom-inner ul li{
+		width: 33.3%;
+	}
+	#banner-bottom-inner ul li:nth-of-type(1){
+		display: none;
+	}
+	#banner-bottom-inner ul li:nth-of-type(5){
+		display: none;
+	}
+	#banner-bottom-inner ul li:nth-of-type(4) span{
+		display: none;
+	}
+	#banner-bottom-inner ul li:nth-of-type(4) p{
+		margin-top: 2px;
+	}
+	#information img.aboutanddongtai{
+		width: 15px;
+		margin-top: 7px;
+	}
+	.list-logo{
+		display: block;
+	}
+	#nav{
+		width: 150px;
+		height: 100%;
+		position: absolute;
+		right: 0px;
+		top: 0;
+		z-index: 200;
+		text-align: center;
+		background-image: url(../images/list-bg.jpg);
+		display: none;
+	}
+	.click-bg{
+		background-image: url(../images/click-bg.jpg);
+	}
+	#nav .min-list li a{
+		color: #fff;
+	}
+	#footer-top-three h5:nth-of-type(1){
+		margin-top: 30px;
+	}
+	#footerhtml{
+		min-height: 2122px;
+	}
+	#en-footerhtml{
+		min-height: 2095px;
+	}
+	.schedule-page-position p:nth-of-type(1){
+		font-size: 12px;
+		letter-spacing: -1px;
+		position: absolute;
+		left: 20px;
+		top: 0;
+	}
+	.schedule-page-position p:nth-of-type(2){
+		position: absolute;
+		right: 20px;
+		top: 0;
+		font-size: 12px;
+		letter-spacing: -1px;
+	}
+	.schedule-page-position img{
+		right:45px;
+	}
+	#Partne{
+		margin-top: -40px;
+		height: 250px;
+	}
+	#Partne-logo{
+		height: 150px;
+		margin-top: 20px;
+	}
+	#newlogo{
+		width: 30%;
+	}
+	#newlogo img{
+		width: 80px;
+	}
+	#header{
+		height: 50px;
+	}
+	#banner-bottom-inner ul li{
+		height: 75px;
+
+	}
+	#banner-bottom{
+		height: 75px;
+	}
+	#banner-bottom-inner ul li img{
+		margin-top: 20px;
+		width: 20px;
+	}
+	#banner-bottom-inner ul li p{
+		margin-top: 5px;
+    	font-size: 10px;
+	}
+	#banner-bottom-inner ul li span{
+    	height: 50px;
+    	background: rgba(0,0,0,0.3);
+    	position: absolute;
+    	right: -1px;
+    	top: 12px;
+	}
+	section{
+		height: auto;
+		margin-bottom: 40px;
+	}
+	.header,.EN-header{
+		background-size:100%;
+		min-height: 130px;
+		height: 0;
+	}
+	.activity{
+		padding:40px 20px;
+	}
+	#section-left,#section-right-two{
+		display: none;
+	}
+	#section-right,#section-left-two{
+		width: 100%;
+		height: auto;
+	}
+	#section-right h4,#section-left-two h4{
+		line-height: 25px;
+    	margin-bottom: 10px;
+    	font-size: 20px;
+	}
+	#section-right p,#section-left-two p{
+		letter-spacing: 1px;
+    	line-height: 23px;
+   	 	font-size: 16px;
+	}
+	#distinguished-gues{
+		margin-top: -40px;
+	}
+	#distinguished-gues-top{
+		height: 50px;
+	}
+	#distinguished-gues-top img{
+		margin-top: 10px;
+	}
+	#distinguished-gues-top p{
+		font-size: 20px;
+	}
+	.distinguished-gues-bottom-box div{
+		width: 100px;
+    	height: 100px;
+	}
+	.distinguished-gues-bottom-box .name{
+		font-size: 16px;
+		line-height: 35px;
+		margin-top: 0;
+	}
+	.distinguished-gues-bottom-box #position{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	#arrow-left, #arrow-left2,#arrow-right, #arrow-right2{
+		width: 10px;
+    	height: 15px;
+    	background-size: 10px 15px;
+	}
+	#arrow-left{
+		left: 10px;
+		top: 50%;
+	}
+	#arrow-left2{
+		left: 10px;
+		top: 45%
+	}
+	#arrow-right{
+		right: 10px;
+		top: 50%;
+	}
+	#arrow-right2{
+		right: 10px;
+		top: 45%;
+	}
+	.distinguished-gues-bottom-box{
+		padding: 0;
+		margin-top: 45px;
+		width: 50%;
+	}
+	#btns{
+		bottom: -150px;
+	}
+	#distinguished-gues{
+		height: 600px;
+	}
+	#distinguished-gues-bottom{
+		height: 450px;
+	}
+	#Partne-logo-two{
+		background-size: 94px;
+	}
+	#Partne-logo-three{
+		background-size: 77px;
+	}
+	#Partne-logo-one{
+		background-size: 85px;
+	}
+	.Partne-logos-box{
+		padding: 0 10px;
+	}
+	#bottom-banner{
+		background-size:100%;
+		min-height:62px;
+		height: 0;
+	}
+	#footer-top-logoo, #footer-top-two,#footer-top-three, #footer-top-four{
+		width: 100%;
+		padding: 0 20px;
+	}
+	#footer-top-logoo img{
+		width: 100px;
+		margin-top: 20px;
+	}
+	#footer-top-logoo ul li img{
+			width: 20px;
+	}
+	#footer-top-logoo{
+		padding: 0;
+	}
+	#footer-top-logoo span{
+		display: none;
+	}
+	#footer-bottom-one,#footer-bottom-three,#footer-bottom-two{
+		width: 100%;
+	}
+	#footer-bottom-two{
+		text-align: center;
+		padding: 0;
+	}
+	#footer-bottom-three{
+		text-align: center;
+		padding: 0;
+
+	}
+	#footer-bottom-one span{
+		line-height: 0;
+	}
+	#footer-bottom-one #line-one,#footer-bottom-one #line-two{
+		top: 45px;
+		height: 14px;
+	}
+	#return-top{
+		width: 32px;
+		height: 32px;
+		right: 20px;
+		bottom: 60px;
+		background-size: 30px;
+	}
+	#weixin{
+		width: 32px;
+		height: 32px;
+		right: 20px;
+		background-size: 30px;
+		bottom: 30px;
+	}
+	#weixin .erweima{
+		bottom: 30px;
+		right: 65px;
+	}
+	#guide-page{
+		display: block;
+		background-size: 100%;
+		min-height: 59px;
+		height: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+	#information{
+		height: 50px;
+	}
+	#information img{
+		margin-top: 6px;
+		width: 20px;
+	}
+	#information p{
+		font-size: 12px;
+		margin-top: 0;
+	}
+	.sign-up-left,.sign-up-right{
+		width: 100%;
+	}
+	.sign-up-right{
+		height: 50px;
+	}
+	#footer-bottom-one span a{
+		font-size: 12px;
+		margin: 0 2px;
+	}
+	.sign-up-text{
+		font-size: 16px;
+		line-height: 25px;
+		padding: 10px 0;
+	}
+	.sign-up-btns, #sign-up-btns{
+		height: 34px;
+    	line-height: 35px;
+	    width: 150px;
+	    border-radius: 30px;
+	    color: #fff;
+	    font-size: 16px;
+	    margin: 0 auto;
+	    position: absolute;
+	    left: 0;
+	    top: 8px;
+	    right: 0;
+	}
+	.black-line{
+		margin: 10px 0;
+	}
+
+
+
+
+
+
+
+	#guide-page-activity{
+		padding: 40px 0;
+	}
+	.schedule-page-position>p{
+		font-size: 12px;
+	}
+	#schedule-page-content p{
+		margin-right: 60px;
+	}
+	#schedule-page-table .timetdTwo{
+		border:2px solid #fff;
+		padding:  0 10px;
+		font-size: 10px;
+	}
+	#schedule-page-table .timetdOne{
+		padding: 0 10px;
+		font-size: 12px;
+		border: 2px solid #fff;
+	}
+	#guide-page-activity{
+		padding: 20px 0;
+	}
+	#schedule-page-time.schedule-page-time{
+		margin-top: 15px;
+	}
+	#guide-page-subway h3{
+		font-size: 16px;
+	}
+	#guide-page-subway ol li:last-of-type{
+		margin-bottom: 15px;
+	}
+	#schedule-page-table .timetdOne{
+		width: 25%;
+		
+	}
+	#schedule-page-table .timetdTwo{
+		width: 75%;
+		
+	}
+	.schedule-page-position-map{
+		background-size: 100% 200px;
+		height: 250px;
+	}
+	.sign-up-right .canguanbaoming{
+		display: none;
+	}
+	.left-boxa,.left-boxb,.left-boxc,.left-boxd,.left-boxe{
+		display: none;
+	}
+	.sign-up-titles{
+		display: block;
+		text-align: center;
+	}
+	.sign-up-h3{
+		text-align: center;
+	}
+	.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-one+h3{
+		font-size: 18px;
+		left: 21px;
+		top: 130px;
+	}
+	.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-two+h3{
+		font-size: 18px;
+		left: 113px;
+		top: 91px;
+	}
+	.schedule-guests .distinguished-gues-bottom-box #distinguished-gues-three+h3{
+		font-size: 18px;
+		top: 91px;
+		left: 203px;
+	}
+	#footer-bottom-two p, #footer-bottom-three p{
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+	#guide-page-time2 p span{
+		font-size: 14px;
+	}
+	section.ENsection{
+		height: auto;
+	}
+	#footer-top,#footer-bottom{
+		padding: 30px;
+	}
+	/* 移动vav */
+	.web-list{
+		display: none;
+	}
+	.min-list{
+		display: block;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media(max-height: 752px){
+	#en-footerhtml{
+		min-height: 2122px;
+	}
+}
+@media(max-width: 556px){
+	#footerhtml{
+		min-height: 2149px;
+	}
+}
+@media(max-width: 320px){
+	#en-footerhtml{
+		min-height: 3154px;
+	}
+}
+@media(max-width: 405px){
+	#en-footerhtml{
+		
+		min-height: 2716px;
+		
+	}
+}
+@media(max-width: 375px){
+	#en-footerhtml{
+	
+		min-height: 2797px;
+		
+	}
+}
+@media(max-width: 414px){
+	#en-footerhtml{
+	
+		min-height: 2662px;
+		
+	}
+}
+@media(max-width: 438px){
+	#en-footerhtml{
+		min-height: 2527px;
+	}
+}
+@media(max-width: 540px){
+	#footerhtml{
+		width: 100%;
+		min-height: 2149px;
+		display: block;
+	}
+}
+@media(max-width:335px){
+	#footerhtml{
+		width: 100%;
+		min-height: 2276px;
+		display: block;
+	}
+}
+@media(max-width:373px){
+	#footerhtml{
+		width: 100%;
+		min-height: 2176px;
+		display: block;
+	}
+}
+@media(max-width: 400px){
+	#footerhtml{
+		width: 100%;
+		min-height: 2336px;
+		display: block;
+	}
+	#schedule-page-table .timetdTwo,#schedule-page-table .timetdOne{
+		padding: 0;
+		font-size: 10px;
+	}
+	#footer-bottom-two p, #footer-bottom-three p{
+		font-size: 10px;
+	}
+	#footer-bottom-one span a{
+		font-size: 10px;
+	}
+	.activity{
+		padding: 20px 20px;
+	}
+	#guide-page-time2 p span{
+		font-size: 10px;
+	}
+	#guide-page-time2 p span:last-of-type{
+		right: 0;
+	}
+}
